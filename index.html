@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <h1 id="titulo" onclick="cambiarColor()">Hola</h1>
+
+    <label for="a"> Primer numero:
+        <input type="number" name="a" id="a">
+    </label>
+    <br>
+    <label for="b"> Segundo numero:
+        <input type="number" name="b" id="b">
+    </label>
+    <br>
+    <button class="boton" id="sumar" onclick="operacionSuma()">Sumar</button>
+    <button class="boton" id="restar" onclick="operacionRestar()">Restar</button>
+    <button class="boton" id="multiplicar" onclick="operacionMultiplicar()">Multiplicar</button>
+    <button class="boton" id="dividir" onclick="operacionDividir()">Dividir</button>
+
+    <p id="suma"></p>
+    <p id="resta"></p>
+    <p id="multiplicacion"></p>
+    <p id="division"></p>
+
+    <div id="lista"></div>
+    <script src="./funciones/calculadora.js"></script>
+    <script src="arrays.js"></script>
+</body>
+
+</html>

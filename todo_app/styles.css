@@ -55,4 +55,7 @@ section {
 .imagen {
     border-radius: 5px;
     margin-left: 10px;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
